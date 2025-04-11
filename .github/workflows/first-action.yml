@@ -1,0 +1,10 @@
+name: Frist Workflow
+on: workflow_dispatch
+jobs:
+  fist-job:
+    runs-on: macos-latest
+    steps:
+      - name: Print greetings
+        run: echo "Hello world"
+      - name: Print goodbey
+        run: echo "Done - bye!"
